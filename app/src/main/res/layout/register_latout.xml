@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:minHeight="?android:attr/actionBarSize"
+        android:background="#0CBFFA" />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="330dip"
+        android:layout_height="145dip"
+        android:background="#747575"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="90dp"
+        android:weightSum="1">
+
+        <EditText
+            android:layout_width="300dip"
+            android:layout_height="40dip"
+            android:id="@+id/reg_verification_edittext"
+            android:background="@drawable/custom_edittext1"
+            android:layout_marginLeft="14dip"
+            android:layout_marginTop="15dip"
+            android:paddingLeft="20dip"
+            android:text="Verification Code"
+            android:textColor="#747575"
+            android:layout_weight="0.22" />
+
+        <Button
+            android:layout_width="105dip"
+            android:layout_height="wrap_content"
+            android:text="Continue"
+            android:textSize="18dp"
+            android:textColor="#ffffff"
+            android:layout_marginTop="20dip"
+            android:layout_marginLeft="14dip"
+            android:background="@drawable/custom_button1"
+            android:id="@+id/reg_verification_button" />
+    </LinearLayout>
+</RelativeLayout>
